@@ -301,7 +301,7 @@ out:
 #if 1
 int main(int argc, char *argv[]) {
     if (argc != 2) {
-        fprintf(stderr, "usage: ./myldd executable-file");
+        fprintf(stderr, "usage: ./myldd executable-file\n");
         return -1;
     } 
     vector<string> libs;
